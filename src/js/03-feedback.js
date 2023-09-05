@@ -32,6 +32,7 @@ const onFeedbackFormElSubmit = event => {
 
     event.target.reset();
     localStorage.removeItem('feedbackFormState');
+    console.log(userData);
 }
 
 feedbackFormEl.addEventListener('input', onFeedbackFormFieldElInput);
